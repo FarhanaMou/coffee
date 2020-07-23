@@ -5,5 +5,62 @@ body{
 html{
     scroll-behavior: smooth;
 }
+
+.header-area{
+    padding: 10px 0;
+   background-image: url(img/main-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh; 
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+    color: transparent;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: none;
+    color: #fff;
+    font-size: 18px;
+}
+.manu ul li a {
+	color: #fff !important;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.nav-style ul li a{
+    padding: 0px 10px;
+}
+/* header content */
+.header-content{
+    padding: 50px 0px;
+}
+
+.header-content h3 {
+    font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	color: #dcdcdc;
+	font-weight: 700;
+	font-size: 36px;
+}
+.header-content h1 {
+	font-size: 100px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+}
+.header-content button {
+	font-size: 16px;
+	color: #fff;
+	background-color: #30788b;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	padding: 12px 40px;
+	border-radius: 0px;
+}
 /* font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif; */
