@@ -101,5 +101,143 @@ html{
 	line-height: 30px;
 }
 /* location-part end */
+/* Apps introducing start  */
+.apps-introducing{
+	padding: 100px 0px 0px 0px;
+	background-color: #f7f7f7;
+}
+.introducing-content {
+	padding: 50px 49px;
+}
+.introducing-content h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	position: relative;
+}
+.introducing-content h3::after {
+	position: absolute;
+	content: '';
+	top: 35px;
+	left: 0;
+	width: 88px;
+	height: 2px;
+	background-color: #f57365;
+}
+.introducing-content p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #525252;
+	padding-bottom: 10px;
+}
+.mobile img {
+	width: 100%;
+}
+/* Apps introducing end */
+/* slider part start */
+.slider{
+	background-image: url(img/sliderimg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0px 120px 0px;
+}
+.circle{
+	width: 80px;
+	height: 80px;
+	background-color: #fff;
+	border: 3px solid #738286;
+	border-radius: 50%;
+}
+.slider-content p {
+	color: #475d61;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 300;
+}
+.slider-content h5 {
+	color: #475d61;
+	font-size: 18px;
+}
+.carousel-indicators{
+	bottom: -60px;
+}
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+.carousel-indicators .active{
+	background-color: orangered;
+}
+/* slider part end */
+/* address part strat */
+.address{
+	padding: 100px 0px;
+}
+.add-bg{
+	background-color: #f7f7f7;
+}
+.common-titel  h3{
+	font-size: 18px;
+	color: #0a0a0a;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-bottom: 95px;
+}
+/* Its for map */
+#embedmap-canvas img{
+	max-height:none;
+	max-width:none!important;
+	background:none!important;
+}
+.num p {
+	background-color: #2497b6;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 5px;
+	width: 35px;
+	height: 33px;
+	text-align: center;
+}
+.add-nam h3 {
+	color: #2497b6;
+	text-transform: capitalize;
+	font-size: 25px;
+	font-weight: 700;
+	padding-bottom: 0px;
+}
+.add-nam p{
+	color: #adb4c0;
+	font-size: 16px;
+}
+.dis h3 {
+	color: #2497b6;
+	font-weight: 700;
+	font-size: 25px;
+}
+.bor{
+	border-bottom: 1px solid #adb4c0;
+}
+.pbt{
+	padding:20px 0px;
+}
+/* address part end */
+/* footer part start */
+.footer-part{
+	padding: 30px 0px;
+}
+.dgn-color {
+	color: #bbb7b7;
+	
+}
+.footer-part p{
+	padding-top: 30px;
+	font-size: 14px;
+}
+/* footer part end */
 /* font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif; */
